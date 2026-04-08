@@ -1,5 +1,6 @@
 import React, { useState, useCallback } from "react";
-const API_KEY = "PASTE_YOUR_KEY_HERE";
+
+const API_KEY = process.env.REACT_APP_API_KEY;
 
 const JOB_BOARDS = [
   { name: "LinkedIn", url: "https://www.linkedin.com/jobs/search/?keywords={query}&location={location}", icon: "in" },
