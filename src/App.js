@@ -1,6 +1,4 @@
-
 import React, { useState, useCallback } from "react";
-
 const API_KEY = "PASTE_YOUR_KEY_HERE";
 
 const JOB_BOARDS = [
